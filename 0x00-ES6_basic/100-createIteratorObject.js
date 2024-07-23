@@ -4,4 +4,4 @@ export default function createIteratorObject(report) {
         result.push(...idx);
     }
     return result;
-}
+};
