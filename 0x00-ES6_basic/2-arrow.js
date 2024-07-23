@@ -6,4 +6,4 @@ export default function getNeighborhoodsList() {
         self.sanFransiscoNeighborhoods.push(newNeighborhood);
         return self.sanFransiscoNeighborhoods;
     };
-}
+};
