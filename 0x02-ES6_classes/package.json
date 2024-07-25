@@ -1,0 +1,24 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "alx",
+  "main": "node.js",
+  "scripts": {
+    "test": "tes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "abd"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "abdurleone",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.24.9",
+    "@babel/preset-env": "^7.24.8",
+    "eslint": "^9.7.0"
+  }
+}
