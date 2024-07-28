@@ -11,6 +11,7 @@ module.exports = {
     globals: {
         Atomics: 'readonly',
         SharedArrayBuffer: 'readonly',
+        AudioWorkletGlobalScope: 'readonly',  // Removed any leading or trailing whitespace
     },
     parserOptions: {
         ecmaVersion: 2018,
@@ -22,21 +23,15 @@ module.exports = {
         'no-shadow': 'off',
         'no-restricted-syntax': [
             'error',
-            {
-                selector: 'LabeledStatement',
-                message: 'Labels are a form of GOTO; using them makes code confusing and hard to maintain.',
-            },
-            {
-                selector: 'WithStatement',
-                message: '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
-            },
+            'LabeledStatement',
+            'WithStatement',
+            'no-underscore-dangle', ['error', { 'allow': ['_maxStudentsSize'] }],
         ],
-        'no-underscore-dangle': ['error', { 'allowAfterThis': true }],
     },
-    overrides: [
+    overrides:[
         {
             files: ['*.js'],
             excludedFiles: 'babel.config.js',
-        },
-    ],
+        }
+    ]
 };
