@@ -11,7 +11,7 @@ module.exports = {
     globals: {
         Atomics: 'readonly',
         SharedArrayBuffer: 'readonly',
-        AudioWorkletGlobalScope: 'readonly',  // Removed any leading or trailing whitespace
+        AudioWorkletGlobalScope: 'readonly' // Ensure there is no extra whitespace
     },
     parserOptions: {
         ecmaVersion: 2018,
@@ -28,7 +28,7 @@ module.exports = {
             'no-underscore-dangle', ['error', { 'allow': ['_maxStudentsSize'] }],
         ],
     },
-    overrides:[
+    overrides: [
         {
             files: ['*.js'],
             excludedFiles: 'babel.config.js',
