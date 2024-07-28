@@ -25,9 +25,9 @@ module.exports = {
             'error',
             'LabeledStatement',
             'WithStatement',
-            'no-underscore-dangle', ['error', { 'allow': ['_maxStudentsSize'] }],
-            "no-promise-executor-return": "error"
         ],
+            'no-underscore-dangle': ['error', { 'allow': ['_maxStudentsSize'] }],
+            "no-promise-executor-return": "error"
     },
     overrides: [
         {
