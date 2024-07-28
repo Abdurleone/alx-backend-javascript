@@ -12,7 +12,7 @@ module.exports = {
         Atomics: 'readonly',
         SharedArrayBuffer: 'readonly',
         AudioWorkletGlobalScope: 'readonly' // Ensure there is no extra whitespace
-    },
+        },
     parserOptions: {
         ecmaVersion: 2018,
         sourceType: 'module',
