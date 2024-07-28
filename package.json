@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "@babel/node": "^7.24.8",
+    "eslint": "^9.8.0",
     "eslint-plugin-jest": "^28.6.0",
     "eslint-plugin-react": "^7.35.0"
   },
