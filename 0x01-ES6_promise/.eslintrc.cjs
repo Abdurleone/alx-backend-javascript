@@ -11,8 +11,7 @@ module.exports = {
     globals: {
         Atomics: 'readonly',
         SharedArrayBuffer: 'readonly',
-        AudioWorkletGlobalScope: 'readonly' // Ensure there is no extra whitespace
-        },
+    },
     parserOptions: {
         ecmaVersion: 2018,
         sourceType: 'module',
@@ -25,8 +24,8 @@ module.exports = {
             'error',
             'LabeledStatement',
             'WithStatement',
-            'no-underscore-dangle', ['error', { 'allow': ['_maxStudentsSize'] }],
         ],
+        'no-underscore-dangle': ['error', { 'allow': ['_maxStudentsSize'] }],
     },
     overrides: [
         {
