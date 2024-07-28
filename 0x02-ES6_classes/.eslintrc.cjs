@@ -24,6 +24,7 @@ module.exports = {
             'error',
             'LabeledStatement',
             'WithStatement',
+            'no-underscore-dangle', ['error', { 'allow': ['_maxStudentsSize'] }],
         ],
     },
     overrides:[
