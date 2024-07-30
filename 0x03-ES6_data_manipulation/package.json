@@ -1,0 +1,18 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "ds",
+  "main": "js",
+  "scripts": {
+    "test": "v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "sde"
+  },
+  "keywords": [
+    "s"
+  ],
+  "author": "me",
+  "license": "UNLICENSED"
+}
