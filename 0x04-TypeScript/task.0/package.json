@@ -1,0 +1,22 @@
+{
+  "name": "task",
+  "version": "1.0.0",
+  "description": "saw",
+  "main": "nbg",
+  "scripts": {
+    "test": "res"
+  },
+  "repository": {
+    "type": "git",
+    "url": "asd"
+  },
+  "keywords": [
+    "asdf"
+  ],
+  "author": "assdd",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
